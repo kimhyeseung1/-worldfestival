@@ -1,0 +1,298 @@
+@charset "utf-8";
+*{ list-style: none;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.wrap{
+   
+    width:1000px;
+    height:650px;
+    /* background-color: aqua; */
+  
+}
+.logo{
+    width:200px;
+    height:650px;
+    background-color: rgb(241, 238, 245);
+    float: left;}
+    
+    
+h2{  margin-top: 20px;
+margin-left: 15px;
+}
+h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menu{
+    padding: 0;
+    margin-top: 20px;
+    float: left;
+    width: 200px;
+    height:300px;
+   
+}
+.logo li{
+   width:180px;
+   height:50px;
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+   line-height: 50px;
+   /* background-color: black; */
+}
+.menu a{
+    color: rgb(255, 255, 255);
+
+}
+.logo > ul{
+    position: relative;
+    width:180px;
+    height:200px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+    
+}
+.logo > ul ul{
+position: absolute;
+left:180px;
+top:0px;
+z-index: 1;
+width:180px;
+height:200px;
+background-color: rgba(222, 233, 11, 0.67);
+}
+.menu > li ul{
+    width:180px;
+    height:200px;
+    background-color: aliceblue;
+}
+.menu > li ul li {
+    width:180px;
+    height:50px;
+    /* padding: 0;
+    margin: 0; */
+    display: inline-block;
+background-color: rgb(255, 255, 255);
+} 
+
+.menu > li:hover{
+    background-color: rgba(255, 255, 255, 0.52);
+}
+.menu > li:hover .submenu{
+    display: block;
+}
+.menu > li ul li:hover a {
+background-color: aquamarine;
+} 
+
+
+.submenu{
+    padding: 0;
+}
+.submenu{
+    height: 120px;
+    display: none;
+}
+.submenu > li {
+  height: 40px;
+  width: 150px;  
+  text-align: center; 
+  font-size: 16px;
+}
+/* .submenu > a:hover {
+    background-color: rgb(255, 255, 255);
+     */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width:800px;
+    height:550px;
+    /* background-color: rgb(3, 231, 251); */
+    float: left;
+}
+
+.slide{
+    width:800px;
+    height:350px;
+    background-color: blue;
+     float: left;
+     overflow: hidden;
+  
+}
+.ani{
+    width:2400px;
+    height:350px;
+    animation: ani 10s infinite;
+}
+@keyframes ani{
+    0%{
+        margin-left:0
+    }
+    50%{
+        margin-left:-800px;
+    }
+    70%{
+        margin-left:-1600px;
+    }
+    100%{
+        margin-left:-1600px;
+    }
+    
+}
+.img{
+    width:800px;
+    height:350px;
+    float: left;  position: relative;
+}
+
+.img span{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    background-color:rgba(0, 0, 0, 0.681);
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height:50px;
+    display: block;
+    line-height: 50px;
+    text-align: center; 
+
+}
+
+.slide img{
+    width:800px;
+    height:350px;float: left;
+}
+.gog{
+    width:300px;
+    height:200px;
+    /* background-color: brown; */
+     float: left;
+}
+.gog1{
+    margin-left: 5px;
+    width:300px;
+    height:150px;
+    /* background-color: aqua; */
+    float: left;
+}
+.gog1 ul{
+   margin:0;
+   padding: 0;
+}
+.gog1 li{
+    padding:7px;
+}
+.gog1 li:nth-child(2n){
+background-color: rgba(0, 13, 13, 0.212);
+}
+
+
+span{
+    float: right;
+}
+
+
+
+
+.gall{
+    width:300px;
+    height:200px;
+    /* background-color: aqua; */
+     float: left;
+}
+.gall img{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 15px;
+    width:80px;
+    height:80px;
+}
+.baro{
+    width:200px;
+    height:200px;
+    /* background-color: blueviolet; */
+     float: left;
+     position: relative;
+     
+}
+.sctext{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    background-color:rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 100px;
+    height:30px;
+    display: block;
+    text-align: center; 
+    line-height: 30px;
+}
+
+.img2{
+    width:180px;
+    height:180px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+.foo{ width:800px;
+    height:100px;
+    background-color: rgb(3, 231, 251);
+    float: left;
+
+}
+.footer{
+    width:300px;
+    height:100px;
+    /* background-color: rgb(42, 165, 97); */
+    float: left;
+   
+}
+.footer1{
+    width:500px;
+    height:50px;
+    /* background-color: rgb(118, 42, 165); */
+    float: left;
+}
+.footer2{
+    width:500px;
+    height:50px;
+    /* background-color: rgb(46, 42, 165); */
+    float: left;
+}
+.footer h2{
+  float: left;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.footer1 li{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer2 li{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    /* margin-left: 20px;*
+}

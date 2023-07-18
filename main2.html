@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main2.css">
+    <title>배너연습</title>
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+        }
+    img{
+        vertical-align: middle;
+        }
+    .wrap{
+        overflow: hidden;
+        width:500px;
+        height:200px;
+        }
+    .scroll-img{
+        width:2000px;
+        font-size:0;
+        margin-left: 0;
+        animation:scroll 10s infinite;
+        }
+        @keyframes scroll{
+            0%{
+                margin-left: 0;
+            }
+            5%{
+                margin-left: -500px;
+            }
+            25%{
+                margin-left: -500px;
+            }
+            30%{
+                margin-left: -1000px;
+            }
+            50%{
+                margin-left: -1000px;
+            }
+            55%{
+                margin-left:-1500px;
+            }
+            75%{
+                margin-left:-1500px;
+            }
+            85%{
+                margin-left:0px;
+            }
+            100%{
+                margin-left:0px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="scroll-img">
+        <img src=" http://placehold.it/500x200" alt="">
+        <img src=" http://placehold.it/500x200/fab" alt="">
+        <img src=" http://placehold.it/500x200/afb" alt="">
+        <img src=" http://placehold.it/500x200/abf" alt="">
+    </div>
+</div>
+</body>
+</html>
